@@ -8,8 +8,53 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:"slnt" 0
+    font-variation-settings:"slnt" 0;
+    background-color: rgb(28, 22, 22);
 }
 
 /* navbar style */
-.
+.navBar{
+    width: 85%;
+    margin: 62px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+}
+
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-style: oblique;
+    margin-left:30px;
+}
+
+.manuItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height:70px;
+    border: 1px solid rgb(74, 73, 73);
+    border-radius: 50px;
+}
+
+
+.manuItems li{
+    color: white;
+    list-style: none;
+    font-size: 1.2rem;
+    margin:30px ;
+    font-weight: 500;
+    
+}
+
+.btn{
+    background-color:rgb(230, 83, 60) ;
+    height: 60px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
