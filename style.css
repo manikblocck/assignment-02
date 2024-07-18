@@ -9,17 +9,16 @@ body{
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
-    background-color: rgb(28, 22, 22);
+    background-color: black;
 }
 
 /* navbar style */
 .navBar{
-    width: 85%;
+    width: 1240px;
     margin: 62px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(28, 27, 27);
 }
 
 .logo{
@@ -49,7 +48,7 @@ body{
     
 }
 
-.btn{
+.navBtn{
     background-color:rgb(230, 83, 60) ;
     height: 60px;
     width: 170px;
@@ -57,4 +56,130 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+}
+
+/* banner secation styls */
+.containerBanner{
+    width: 1240px;
+    margin:4px auto ;
+    background: linear-gradient(black,rgb(37, 36, 36),black);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bannerText{
+    width: 50%;
+    color: white;
+}
+
+.bannerText h1{
+    font-family: "Inter", sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 6.7rem;
+}
+
+#textSpan{
+    font-family: "Allura", cursive;
+    font-size: inherit;
+    font-weight: 100;
+    font-style: normal;
+    font-size:9rem ;
+}
+
+.bannerText p{
+    color: rgb(174, 174, 174);
+    margin-top: 30px;
+}
+
+.joinBtn{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    width: 245px;
+    height: 65px;
+    background:rgb(230, 83, 60) ;
+    border: none;
+    border-radius: 35px;
+    color: white;
+}
+
+.downloadBtn{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 245px;
+    height: 65px;
+    background:transparent ;
+    border: 2px solid white;
+    border-radius: 35px;
+    color: white;
+}
+
+.bannreImage{
+    background-image: url(images/Im\ 2.png);
+    width:50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.smallCard-1{
+    width: 200px;
+    height: 100px;
+    color: white;
+    border: 1px solid rgb(74, 73, 73);
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    position: relative;
+    top: 140px;
+    left: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallCard-1 h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.smallCard-1 p{
+    color: rgb(174, 174, 174);
+}
+
+.smallCard-2{
+    width: 200px;
+    height: 100px;
+    background:rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: 300;
+    border: 1px solid rgb(74, 73, 73);
+    position: relative;
+    top: 330px;
+    left: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circale{
+    background:rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.smallCard-2Text h3{
+    font-size: 1.5rem;
+    color:white;
+}
+
+.smallCard-2Text p{
+    color: rgb(174, 174, 174);
 }
