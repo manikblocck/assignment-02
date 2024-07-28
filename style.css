@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.text-color-gray{
+    color: rgb(140, 135, 135);
+}
+
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,8 +18,8 @@ body{
 
 /* navbar style */
 .navBar{
-    width: 1240px;
-    margin: 62px auto;
+    width: 100%;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,44 +30,49 @@ body{
     font-size: 2rem;
     font-style: oblique;
     margin-left:30px;
+    font-weight: 900;
+    margin-left: 10%;
 }
 
 .manuItems{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    height:70px;
     border: 1px solid rgb(74, 73, 73);
     border-radius: 50px;
+    margin-right: 10%;
 }
 
 
 .manuItems li{
     color: white;
     list-style: none;
-    font-size: 1.2rem;
-    margin:30px ;
-    font-weight: 500;
-    
+    font-size: 1.3rem;
+    margin:5px 20px;
+    font-weight: 400; 
+    padding: 7px; 
+}
+
+.manuItems li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
 }
 
 .navBtn{
     background-color:rgb(230, 83, 60) ;
-    height: 60px;
-    width: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 50px;
 }
 
 /* banner secation styls */
-.containerBanner{
-    width: 1240px;
-    margin:4px auto ;
+
+.banner{
     background: linear-gradient(black,rgb(37, 36, 36),black);
-    padding: 50px;
+}
+
+.containerBanner{
+    width: 80%;
+    margin:4px auto ;
     display: flex;
     justify-content: space-between;
 
@@ -86,7 +95,7 @@ body{
     font-size: inherit;
     font-weight: 100;
     font-style: normal;
-    font-size:9rem ;
+    font-size:5rem ;
 }
 
 .bannerText p{
@@ -127,22 +136,21 @@ body{
 
 .smallCard-1{
     width: 200px;
-    height: 100px;
+    height: 90px;
+    margin-top: 140px;
+    margin-left: 450px;
     color: white;
     border: 1px solid rgb(74, 73, 73);
     border-radius: 10px;
     background:rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
-    position: relative;
-    top: 140px;
-    left: 365px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .smallCard-1 h3{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
@@ -152,14 +160,13 @@ body{
 
 .smallCard-2{
     width: 200px;
-    height: 100px;
+    height: 90px;
+    margin-top: 190px;
+    margin-left: 100px;
     background:rgba(255, 255, 255, 0.1);
     color: white;
     font-weight: 300;
     border: 1px solid rgb(74, 73, 73);
-    position: relative;
-    top: 330px;
-    left: 30px;
     border-radius: 10px;
     backdrop-filter: blur(20px);
     display: flex;
@@ -182,4 +189,734 @@ body{
 
 .smallCard-2Text p{
     color: rgb(174, 174, 174);
+}
+
+
+/* habits secation */
+
+.habit-secation-text{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    
+}
+
+.habit-secation-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+
+.habit-secation-images{
+    width: 70%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habits-imageCard img{
+    border-radius: 50%;
+    border: 5px solid rgb(38, 37, 37);
+
+}
+
+.habits-imageCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.habits-imageCard h3{
+    color: white;
+    text-align: center;
+}
+
+.habits-imageCard p{
+    text-align: center;
+}
+
+/* run an extra - secation */
+.run-extra-secation{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(46, 45, 45);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.run-text{
+    width: 50%;
+    padding: 40px;
+   
+}
+
+.run-text h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.run-text p{
+    color: rgb(158, 156, 156);
+}
+
+
+.run-image{
+    width: 50%; 
+    padding: 40px;  
+}
+
+.run-image img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.run-join-btn{
+    font-size: 1.5rem;
+    width: 245px;
+    height: 60px;
+    margin-top: 40px;
+    background:rgb(230, 83, 60) ;
+    border: none;
+    border-radius: 35px;
+    color: white;
+}
+
+
+/* training and exercise text  */
+
+.trainings-text-secation{
+    width: 65%;
+    margin: 50px auto;
+}
+
+.trainings-text-secation h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin:20px auto;
+}
+
+/* images-secation  */
+
+.exercise-image-sexation{
+    width: 70%;
+    margin: 30px auto;
+
+}
+
+.row-1{
+   display: flex;
+}
+
+.row-2{
+   display: flex;
+}
+
+
+
+.cards-image-1{
+    background:url(images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+.cards-image-1 p{
+    margin-top: 190px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.cards-image-2{
+    background:url(images/exercise2.png);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+.cards-image-2 p{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.cards-image-3{
+    background:url(images/exercise3.png);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+.cards-image-3 p{
+    margin-top: 190px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.cards-image-4{
+    background:url(images/exercise4.png);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+.cards-image-4 p{
+    margin-top: 30px;
+    margin-left: 55%;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.cards-image-5{
+    background:url(images/exercise5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+.cards-image-5 p{
+    margin-top: 170px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.cards-image-6{
+    background:url(images/exercise6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 250px;
+    border:3px solid rgb(230, 83, 60) ;
+}
+
+
+.cards-image-6 p{
+    margin-top: 170px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+}
+
+/* calculator text */
+.bmiCalculator-secation{
+    width: 35%;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+.bmiCalculator-secation h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.bmiCalculator-secation p {
+    color: rgb(140, 135, 135);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.bmiCalcularor{
+    width: 100%;
+    background: rgb(39, 38, 38)
+}
+
+.bmiCalculator-chaild{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bmi-cal-Chart{
+    width: 50%;
+}
+
+.your-bmi-sec h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin:70px auto;
+    text-align: start;
+}
+
+.bmi-cal-Chart h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 800;
+    margin:70px auto;
+    text-align: start;
+}
+
+table{
+    width: 75%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th{
+    font-size: 1.3rem;
+    font-weight: 700;
+    border:1px solid gray;
+    color: white;
+    padding: 17px;
+    text-align: start;
+} 
+
+td{ width: 50%;
+    border:1px solid gray;
+    font-size: 1rem;
+    padding: 17px;
+    font-weight: 600;
+    color: rgb(174, 174, 174);
+}
+
+.clculate-your-bmi{
+    color: white;
+    width: 60%;
+    padding: 15px;
+}
+
+.clculate-your-bmi h1{
+    color: white;
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 8px;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.clculate-your-bmi p{
+    color: white;
+    margin-left: 8px;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+
+.input-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.input-5{
+    grid-column-start: 1;
+    grid-column-end:-1 ;
+}
+
+.inputs,::placeholder{
+    padding: 20px;
+    margin: 8px;
+    border-radius: 10px;
+    color: rgb(140, 135, 135);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    background: #3e3d3d;
+}
+
+.bmiBtn{
+    padding: 20px;
+    margin: 40px 8px;
+    border-radius: 35px;
+    width: 250px;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    border: none;
+    background: rgb(230, 83, 60);
+
+}
+
+
+/* meet-team */
+.meet-our-team-Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.meet-our-team-Text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.meet-our-team-Text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+    
+
+.meet-our-team-Images{
+    width: 70%;
+    background: #242323;
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.members{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin: 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.members-child{
+    margin-top: 235px;
+    margin-left: 10%;
+}
+.members-child p{
+   color: #605f5f;
+}
+
+.team-Cards1{
+    background-image: url(images/trainer1.png);
+}
+.team-Cards2{
+    background-image: url(images/trainer2.png);
+}
+.team-Cards3{
+    background-image: url(images/trainer3.png);
+}
+.team-Cards4{
+    background-image: url(images/trainer4.png);
+}
+.team-Cards5{
+    background-image: url(images/trainer5.png);
+}
+.team-Cards6{
+    background-image: url(images/trainer6.png);
+}
+
+
+
+
+
+
+/* css for mobile/small device */
+@media screen and (max-width:576px) {
+    .manuItems{
+        display: none;
+    }
+
+    .containerBanner{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-left:1px;
+    }
+
+    .containerBanner{
+        width: 90%;
+    }
+
+    .bannerText{
+        width: 100%;
+        font-size: ;
+    }
+
+    .bannreImage{
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .bannerText h1{
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 5rem;
+    }
+
+    .bannerButtons{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .smallCard-1{
+        margin-top: 45px;
+        margin-left: 240px;
+    }
+
+    .smallCard-2{
+        margin-top: 120px;
+        margin-left:30px ;
+    }
+
+    .habit-secation-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .run-extra-secation{
+        width: 85%;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .run-text{
+        width: 80%;
+        padding: 10px;
+    }
+
+    .run-text h1{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .run-text p{
+        line-height: 29px;
+    }
+
+    .run-join-btn{
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+    }
+
+    .run-image{
+        width: 80%;
+        padding: 20px;
+    }
+
+    .trainings-text-secation{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .exercise-image-sexation{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+
+    .cards-image-1{
+        width: 50%;
+        height: 160px;
+    }
+
+    .cards-image-1 p{
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+
+    .cards-image-2{
+        width: 50%;
+        height: 160px;
+    }
+
+    .cards-image-3{
+        display: none;
+    }
+
+    .cards-image-4{
+        height: 160px;
+    }
+
+    .cards-image-4 p{
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+
+    
+    .cards-image-5{
+        height: 160px;
+        width: 55%;
+    }
+
+    .cards-image-5 p{
+        margin-top: 120px;
+    }
+
+    .cards-image-6{
+        display: none;
+    }
+  
+    .bmiCalculator-secation{
+        width: 95%;
+        margin: 50px auto;
+    }
+
+    .bmiCalculator-chaild{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+.bmi-cal-Chart{
+    width: 90%;
+    margin:10px auto
+}
+
+.clculate-your-bmi{
+    width: 100%;
+}
+
+.clculate-your-bmi{
+    padding: 5px;
+}
+
+.inputs,::placeholder{
+    padding: 8px;
+    margin: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+   
+}
+
+.meet-our-team-Images{
+    width: 85%;
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+  
+}
+
+
+
+
+/* css for tablet/midium device */
+@media screen and (min-width:576px) and (max-width:922px) {
+
+    .navBar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    .logo{
+        width: 50%;
+        margin-left: 15px;
+    }
+     
+   
+    .manuItems{
+        margin: right 5%;
+    }
+
+    
+.manuItems li{
+    color: white;
+    margin:3px 10px; 
+    padding: 5px; 
+}
+
+.manuItems li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.containerBanner{
+    flex-direction: column;
+}
+
+.bannerText{
+    width: 100%;
+}
+
+.bannreImage{
+    width: 100%;
+}
+
+.habit-secation-images{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.run-extra-secation{
+    width: 90%;
+}
+
+.run-text h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.trainings-text-secation{
+    width: 90%;
+}
+
+.trainings-text-secation h1{
+    font-size: 2.7rem;
+}
+
+.exercise-image-sexation{
+    width: 90%;
+}
+
+.bmiCalculator-secation{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.bmiCalculator-chaild{
+    width: 100%;
+    margin:15px auto;
+    flex-direction: column;
+
+}
+
+.bmi-cal-Chart{
+    width: 80%;
+    margin-left: 8%;
+}
+
+.clculate-your-bmi{
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.meet-our-team-Images{
+    width: 90%;
+   
+}
+.members-child{
+    margin-top: 235px;
+}
+
+
 }
