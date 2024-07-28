@@ -882,6 +882,24 @@ footer{
    
 }
 
+.footer-container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.fitness{
+    width: 90%;
+}
+
+.Get-started{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+#line{
+    width: 90%;
+}
   
 }
 
