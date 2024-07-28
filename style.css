@@ -589,7 +589,7 @@ td{ width: 50%;
     width: 70%;
     background: #242323;
     border-radius: 30px;
-    margin: 20px auto;
+    margin: 100px auto;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -632,7 +632,77 @@ td{ width: 50%;
     background-image: url(images/trainer6.png);
 }
 
+/* footer section */
+footer{
+    width: 100%;
+    background: rgb(28, 27, 27);
+}
 
+.footer-container{
+    width: 70%;
+    margin:10px auto;
+    padding: 100px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.fitness{
+    width: 50%;
+}
+
+.fitness h1{
+    font-size: 5.5rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+
+.fitness p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #605f5f;
+}
+
+.Get-started{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Get-started h1{
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.Get-started li{
+    font-size: 1.9rem;
+    color: #605f5f;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#line{
+    width: 70%;
+    margin: 0 auto;
+    color: #c61010;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #605f5f;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
 
 
 
@@ -918,5 +988,22 @@ td{ width: 50%;
     margin-top: 235px;
 }
 
+.footer-container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.fitness{
+    width: 90%;
+}
+
+.Get-started{
+    width: 90%;
+    gap: 10px;
+}
+
+#line{
+    width: 90%;
+}
 
 }
