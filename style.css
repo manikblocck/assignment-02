@@ -439,12 +439,14 @@ body{
     color: white;
     font-size: 3em;
     font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .bmiCalculator-secation p {
     color: rgb(140, 135, 135);
     font-size: 1em;
     font-weight: 400;
+    margin-bottom: 80px;
 }
 
 .bmiCalcularor{
@@ -610,7 +612,7 @@ td{ width: 50%;
     margin-left: 10%;
 }
 .members-child p{
-   color: #605f5f;
+   color: #9d9c9c;
 }
 
 .team-Cards1{
