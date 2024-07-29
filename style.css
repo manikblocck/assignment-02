@@ -327,12 +327,11 @@ body{
 
 
 .cards-image-1{
-    background:url(images/exercise1.jpg);
+    background:linear-gradient(rgba(104, 245, 198, 0.5),rgba(104, 245, 198, 0.5)),url(images/exercise1.jpg);
     background-position: center;
     background-size: cover;
     width: 30%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 .cards-image-1 p{
@@ -344,12 +343,11 @@ body{
 }
 
 .cards-image-2{
-    background:url(images/exercise2.png);
+    background:linear-gradient(rgba(249, 46, 15, 0.5),rgba(245, 123, 104, 0.5)),url(images/exercise2.png);
     background-position: center;
     background-size: cover;
     width: 40%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 .cards-image-2 p{
@@ -361,12 +359,11 @@ body{
 }
 
 .cards-image-3{
-    background:url(images/exercise3.png);
+    background:linear-gradient(rgba(40, 40, 40, 0.5),rgba(40, 40, 40, 0.5)),url(images/exercise3.png);
     background-position: center;
     background-size: cover;
     width: 30%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 .cards-image-3 p{
@@ -378,12 +375,11 @@ body{
 }
 
 .cards-image-4{
-    background:url(images/exercise4.png);
+    background:linear-gradient(rgba(8, 8, 8, 0.5),rgba(16, 17, 17, 0.5)),url(images/exercise4.png);
     background-position: center;
     background-size: cover;
     width: 45%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 .cards-image-4 p{
@@ -395,12 +391,11 @@ body{
 }
 
 .cards-image-5{
-    background:url(images/exercise5.jpg);
+    background:linear-gradient(rgba(36, 241, 114, 0.5),rgba(42, 245, 72, 0.5)),url(images/exercise5.jpg);
     background-position: center;
     background-size: cover;
     width: 30%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 .cards-image-5 p{
@@ -412,12 +407,11 @@ body{
 }
 
 .cards-image-6{
-    background:url(images/exercise6.jpg);
+    background:linear-gradient(rgba(16, 185, 241, 0.5),rgba(25, 115, 241, 0.5)),url(images/exercise6.jpg);
     background-position: center;
     background-size: cover;
     width: 25%;
     height: 250px;
-    border:3px solid rgb(230, 83, 60) ;
 }
 
 
