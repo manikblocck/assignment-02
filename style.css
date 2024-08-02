@@ -523,8 +523,10 @@ td{ width: 50%;
 
 
 .input-area{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   
 }
 
 .input-5{
@@ -743,13 +745,15 @@ footer{
     }
 
     .smallCard-1{
+        width: 180px;
         margin-top: 45px;
-        margin-left: 240px;
+        margin-left: 53%;
     }
 
     .smallCard-2{
+        width: 180px;
         margin-top: 120px;
-        margin-left:30px ;
+        margin-left:10px ;
     }
 
     .habit-secation-images{
@@ -853,15 +857,34 @@ footer{
     
 .bmi-cal-Chart{
     width: 90%;
-    margin:10px auto
+    margin:10px auto;
+   
 }
 
-.clculate-your-bmi{
+.bmi-cal-Chart table{
     width: 100%;
+    border: 2px solid greenyellow;
 }
 
 .clculate-your-bmi{
-    padding: 5px;
+    width: 90%;
+}
+
+.input-area{
+   grid-template-columns: repeat(2,50%);
+   gap: 10px;
+   padding: 25px;
+   width: 90%;
+   height: auto;
+   margin: 10px auto;
+}
+.inputs{
+  margin-bottom: 15px;
+}
+
+
+.clculate-your-bmi{
+    padding: 15px;
 }
 
 .inputs,::placeholder{
