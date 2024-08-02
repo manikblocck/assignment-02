@@ -515,7 +515,7 @@ td{ width: 50%;
 }
 
 .clculate-your-bmi p{
-    color: white;
+    color:rgb(140, 135, 135);
     margin-left: 8px;
     margin-bottom: 40px;
     text-align: start;
@@ -704,6 +704,126 @@ footer{
 
 
 
+/* css for tablet/midium device */
+@media screen and (min-width:576px) and (max-width:922px) {
+
+    .navBar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    .logo{
+        width: 50%;
+        margin-left: 15px;
+    }
+     
+   
+    .manuItems{
+        margin: right 5%;
+    }
+
+    
+.manuItems li{
+    color: white;
+    margin:3px 10px; 
+    padding: 5px; 
+}
+
+.manuItems li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.containerBanner{
+    flex-direction: column;
+}
+
+.bannerText{
+    width: 100%;
+}
+
+.bannreImage{
+    width: 100%;
+}
+
+.habit-secation-images{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.run-extra-secation{
+    width: 90%;
+}
+
+.run-text h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.trainings-text-secation{
+    width: 90%;
+}
+
+.trainings-text-secation h1{
+    font-size: 2.7rem;
+}
+
+.exercise-image-sexation{
+    width: 90%;
+}
+
+.bmiCalculator-secation{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.bmiCalculator-chaild{
+    width: 100%;
+    margin:15px auto;
+    flex-direction: column;
+
+}
+
+.bmi-cal-Chart{
+    width: 80%;
+    margin-left: 8%;
+}
+
+.clculate-your-bmi{
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.meet-our-team-Images{
+    width: 90%;
+   
+}
+.members-child{
+    margin-top: 235px;
+}
+
+.footer-container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.fitness{
+    width: 90%;
+}
+
+.Get-started{
+    width: 90%;
+    gap: 10px;
+}
+
+#line{
+    width: 90%;
+}
+
+}
+
 
 /* css for mobile/small device */
 @media screen and (max-width:576px) {
@@ -863,7 +983,6 @@ footer{
 
 .bmi-cal-Chart table{
     width: 100%;
-    border: 2px solid greenyellow;
 }
 
 .clculate-your-bmi{
@@ -920,127 +1039,4 @@ footer{
     width: 90%;
 }
   
-}
-
-
-
-
-/* css for tablet/midium device */
-@media screen and (min-width:576px) and (max-width:922px) {
-
-    .navBar{
-        width: 100%;
-        display: flex;
-        justify-content: space-between; 
-    }
-
-    .logo{
-        width: 50%;
-        margin-left: 15px;
-    }
-     
-   
-    .manuItems{
-        margin: right 5%;
-    }
-
-    
-.manuItems li{
-    color: white;
-    margin:3px 10px; 
-    padding: 5px; 
-}
-
-.manuItems li a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.containerBanner{
-    flex-direction: column;
-}
-
-.bannerText{
-    width: 100%;
-}
-
-.bannreImage{
-    width: 100%;
-}
-
-.habit-secation-images{
-    grid-template-columns: repeat(2,1fr);
-}
-
-.run-extra-secation{
-    width: 90%;
-}
-
-.run-text h1{
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
-.trainings-text-secation{
-    width: 90%;
-}
-
-.trainings-text-secation h1{
-    font-size: 2.7rem;
-}
-
-.exercise-image-sexation{
-    width: 90%;
-}
-
-.bmiCalculator-secation{
-    width: 90%;
-    margin: 50px auto;
-}
-
-.bmiCalculator-chaild{
-    width: 100%;
-    margin:15px auto;
-    flex-direction: column;
-
-}
-
-.bmi-cal-Chart{
-    width: 80%;
-    margin-left: 8%;
-}
-
-.clculate-your-bmi{
-    width: 90%;
-    margin-left: 5%;
-
-}
-
-.meet-our-team-Images{
-    width: 90%;
-   
-}
-.members-child{
-    margin-top: 235px;
-}
-
-.footer-container{
-    flex-direction: column;
-    width: 100%;
-}
-
-.fitness{
-    width: 90%;
-}
-
-.Get-started{
-    width: 90%;
-    gap: 10px;
-}
-
-#line{
-    width: 90%;
-}
-
 }
